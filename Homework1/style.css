@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Header{
+    z-index: 111;
+    position: fixed;
+}
+.Header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #55535352;
+    position: fixed;
+    width: 100%;
+    
+}
+.Logo{
+    width: 10%;
+    padding: 30px 0px;
+    margin: 10px 20px;
+}
+
+.Logo img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.Navbar a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: normal;
+    font-size: 17px;
+    display: inline-block;
+    font-family: Poppins;
+    color: #fff;
+   
+}
+.button{
+    text-decoration: none;
+    color: #fff;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    background-color: #ba71da;
+    font-size: 15px;
+    font-weight: normal;
+}
+.Icon i{
+    margin-left: 10px;
+    padding: 0px 40px;
+    font-size: 30px;
+}
+#Slider{
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg);
+    background-size: cover;
+    background-position: 0rem -13rem;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+.All h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+}
+.All h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 10px;
+}
+.All{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.All span{
+ text-decoration: underline #ba71da;
+}
